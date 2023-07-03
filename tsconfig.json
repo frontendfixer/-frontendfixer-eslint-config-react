@@ -1,0 +1,12 @@
+{
+  "include": ["**/*"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true
+  },
+  "exclude": ["**/*.spec.ts", "**/*.d.ts", "node_modules"]
+}

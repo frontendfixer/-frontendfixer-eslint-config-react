@@ -1,0 +1,77 @@
+{
+  "name": "@frontendfixer/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint, Prettier and Typescript Config for React application",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "ecmascript",
+    "eslint",
+    "eslint-config",
+    "lint",
+    "config",
+    "prettier",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontendfixer/eslint-config-react.git"
+  },
+  "author": {
+    "name": "Lakshmikanta Patra",
+    "email": "frontendfixer@gmail.com"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "typescript.js"
+  ],
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "changeset": "changeset",
+    "release": "changeset publish",
+    "commit": "git-cz",
+    "acr": "git add . && pnpm commit && git push --follow-tags"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.44.0",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
