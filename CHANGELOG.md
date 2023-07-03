@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 1.0.2
+
+### Patch Changes
+
+- [`efab579`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/efab5798f975b70489a093d5669da8373d0b440f) - remove commitizen
+
 ## 1.0.1
 
 ### Patch Changes
