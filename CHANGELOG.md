@@ -1,5 +1,13 @@
 # @frontendfixer/eslint-config-react
 
+## 1.0.3
+
+### Patch Changes
+
+- [`e44e2fb`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/e44e2fbb803bbb6e2d1c3648876f0cfad85c43c4) - create changeset vesion job before changeset release job
+
+- [`2f0e7e8`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/2f0e7e850d1729ee7e619f879cc302c951cc49ad) - remove commitizen and scripts
+
 ## 1.0.2
 
 ### Patch Changes
