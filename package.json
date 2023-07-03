@@ -1,6 +1,6 @@
 {
   "name": "@frontendfixer/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint, Prettier and Typescript Config for React application",
   "keywords": [
     "javascript",
@@ -36,7 +36,7 @@
     "changeset": "changeset",
     "release": "changeset publish",
     "commit": "git-cz",
-    "release_push": "git add . && yarn commit && yarn release &&  git push --follow-tags"
+    "release_push": "git add . && yarn changeset && yarn changeset version && git add . && yarn commit && yarn release &&  git push --follow-tags"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",

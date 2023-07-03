@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 1.0.1
+
+### Patch Changes
+
+- package.json script change
+
 ## v.1.0.0
 
 ### Initial Release
