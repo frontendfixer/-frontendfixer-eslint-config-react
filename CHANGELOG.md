@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 1.0.4
+
+### Patch Changes
+
+- [`abf3e44`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/abf3e443496100c90c4a1990b142012cfb34065c) - all file are not build to final npm package
+
 ## 1.0.3
 
 ### Patch Changes
