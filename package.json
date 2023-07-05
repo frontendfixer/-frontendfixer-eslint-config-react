@@ -24,7 +24,12 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "typescript.js"
+    "typescript.js",
+    "./rules/base.rules.js",
+    "./rules/typescript.rules.js",
+    "./.prettierrc",
+    "./.prettierignore",
+    "./tsconfig.json"
   ],
   "main": "index.js",
   "eslintConfig": {
