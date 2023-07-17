@@ -1,5 +1,15 @@
 # @frontendfixer/eslint-config-react
 
+## 1.0.5
+
+### Patch Changes
+
+- [`acd515c`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/acd515cc25f68d66a019a630e9ea306c5da3a281) - fix: prettier v3.0.0 problem
+
+- [`acd515c`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/acd515cc25f68d66a019a630e9ea306c5da3a281) - update prettier from v2.8.0 to v2.8.8
+
+- [`acd515c`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/acd515cc25f68d66a019a630e9ea306c5da3a281) - fix: spelling 'overwrite' to 'overrides'
+
 ## 1.0.4
 
 ### Patch Changes
