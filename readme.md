@@ -40,13 +40,13 @@ You can see all the [base rules](https://github.com/frontendfixer/eslint-config-
 - without typescript
 
 ```bash
-npm install -D eslint prettier@^2.8.0 @frontendfixer/eslint-config-react
+npm install -D eslint prettier@^2.8.8 @frontendfixer/eslint-config-react
 ```
 
 - with typescript
 
 ```bash
-npm install -D eslint prettier@^2.8.0 typescript @frontendfixer/eslint-config-react
+npm install -D eslint prettier@^2.8.8 typescript @frontendfixer/eslint-config-react
 ```
 
 ## Configuration
