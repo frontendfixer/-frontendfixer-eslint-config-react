@@ -76,7 +76,7 @@ Or put this in a `.eslintrc` file
 ```json
 {
   "extends": ["@frontendfixer/react"],
-  "overwrite": [
+  "overrides": [
     {
       "files": ["**/*.{ts,tsx}"],
       "extends": ["@frontendfixer/react/typescript"]
