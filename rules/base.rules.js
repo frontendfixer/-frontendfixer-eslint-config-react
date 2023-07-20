@@ -2,6 +2,14 @@ module.exports = {
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     import: 'off',
+    camelcase: [
+      'warn',
+      {
+        ignoreDestructuring: true,
+        ignoreImports: true,
+        ignoreGlobals: true,
+      },
+    ],
     'comma-dangle': 'off',
     'consistent-return': 'off',
     'func-names': 'off',
