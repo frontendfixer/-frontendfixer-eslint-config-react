@@ -1,5 +1,25 @@
 # @frontendfixer/eslint-config-react
 
+## 2.0.0
+
+### Major Changes
+
+- [`8e3271c`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/8e3271c9796d52662002e67d2de0aba882c16906) - ## Add stylelint for css and scss files
+
+  ### Features
+
+  - Extends stylelint config with [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+  - SCSS support with [stylelint-scss](https://github.com/stylelint-scss/stylelint-scss) and [postcss-scss](https://github.com/postcss/postcss-scss)
+  - Convert all px value to rem using [stylelint-rem-over-px](https://github.com/a-tokyo/stylelint-rem-over-px)
+
+### Minor Changes
+
+- [`81fce6e`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/81fce6e8e54674421de462cd00d2b3f3312b58d3) - add typescript rules
+
+### Patch Changes
+
+- [`4206e94`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/4206e9422219e8a4f9a27988d96112f1268ed7ee) - add rules for 'camelcase'
+
 ## 1.0.5
 
 ### Patch Changes
