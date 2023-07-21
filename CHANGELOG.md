@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 2.0.1
+
+### Patch Changes
+
+- [`2e1d49c`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/2e1d49cd01f60c1aa72f6b23f0ab23ed3c5373ad) - remove 'n/no-missing-import' node support
+
 ## 2.0.0
 
 ### Major Changes
