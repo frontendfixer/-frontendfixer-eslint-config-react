@@ -29,6 +29,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/recommended',
     'airbnb',
+    'stylelint',
     'prettier',
     'plugin:prettier/recommended',
   ],

@@ -28,6 +28,7 @@
     "./rules/base.rules.js",
     "./rules/typescript.rules.js",
     "./.prettierrc",
+    "./.stylelintrc.json",
     "./.prettierignore",
     "./tsconfig.json"
   ],
@@ -54,6 +55,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-config-stylelint": "^19.0.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -62,7 +64,15 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "postcss": "^8.4.26",
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-css-modules": "^4.3.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-rem-over-px": "^1.0.0",
+    "stylelint-scss": "^5.0.1"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
@@ -70,6 +80,7 @@
     "eslint": "^8.44.0",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
+    "stylelint": "^15.10.2",
     "typescript": "^5.1.6"
   },
   "config": {

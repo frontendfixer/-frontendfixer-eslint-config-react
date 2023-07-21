@@ -1,0 +1,30 @@
+{
+  "plugins": ["stylelint-scss", "stylelint-rem-over-px"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-css-modules",
+    "stylelint-config-recess-order"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "rem-over-px/rem-over-px": [
+      true,
+      {
+        "ignore": ["1px", "2px", "3px", "border", "box-shadow", "filter"]
+      }
+    ],
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "layer"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.scss", "**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ]
+}
