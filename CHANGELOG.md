@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 2.0.3
+
+### Patch Changes
+
+- [`12f78ca`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/12f78cac7a7547cd9e488e8b6601168774ce0d5c) - fix: no stylelint linting
+
 ## 2.0.2
 
 ### Patch Changes
