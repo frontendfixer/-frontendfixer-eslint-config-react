@@ -36,6 +36,9 @@
   "eslintConfig": {
     "extends": "./index.js"
   },
+  "stylelint": {
+    "extends": "./.stylelintrc.json"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
