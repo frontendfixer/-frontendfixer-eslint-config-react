@@ -1,5 +1,11 @@
 # @frontendfixer/eslint-config-react
 
+## 2.0.2
+
+### Patch Changes
+
+- [`1430fcf`](https://github.com/frontendfixer/-frontendfixer-eslint-config-react/commit/1430fcf86b8ee88fe399fc5294f42d39bee17c07) - fix import problem
+
 ## 2.0.1
 
 ### Patch Changes
