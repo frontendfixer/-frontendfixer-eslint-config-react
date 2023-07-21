@@ -16,7 +16,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'import/prefer-default-export': 'off',
     'import/newline-after-import': 'error',
-    'import/extensions': 'warn',
+    'import/extensions': ['off', 'never'],
     'jsx-a11y/anchor-is-valid': [
       'warn',
       {
